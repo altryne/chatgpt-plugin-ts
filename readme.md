@@ -41,6 +41,20 @@ yarn add chatgpt-plugin
 pnpm install chatgpt-plugin
 ```
 
+## Config
+Start by adding your aiPlugin configuration into the `package.json` file like so: 
+(see full instructions on [OpenAi docs](https://platform.openai.com/docs/plugins/getting-started/plugin-manifest))
+```json
+  "aiPlugin": {
+    "name": "plugin_name",
+    "description_for_model": "description_for_model",
+    "logo_url": "hosted logo url",
+    "contact_email": "your email",
+    "legal_info_url": "legal info link"
+  }
+```
+
+
 ## Example Plugins
 
 TS code for all example plugins can be found in the [examples](/examples) directory.
